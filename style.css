@@ -1,0 +1,166 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 10vw;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.topnav {
+    margin: 10vw 0 0;
+    padding: 0;
+}
+
+.topnav-icon {
+    margin: 0px;
+    padding: 0px;
+    height: 8vw;
+    max-height: 35px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#mockups-img {
+    max-width: 80vw;
+    max-height: 400px;
+}
+
+#landing-txt {
+    /* margin: 10px 0; */
+}
+
+.landing-txt-item {
+    margin: 20px 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#register-button {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 3px 6px hsla(0, 0%, 0%, 0.473);
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    height: 40px;
+    min-width: 100px;
+    width: 50vw;
+    margin: 0;
+}
+
+.register-button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(0, 0%, 100%)
+}
+
+.social-media-links {
+    text-align: center;
+}
+
+.social-media-icon {
+    vertical-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.social-media-icon:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+footer {
+    margin: 10px 0;
+}
+
+@media (min-width: 568px) {
+    body {
+        background-image: url("./images/bg-desktop.svg");
+        background-size: contain;
+        padding: 0 5vh;
+    }
+    
+    h1 {
+        font-size: 3em;
+        line-height: 1.2em;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+    
+    .topnav {
+        margin: 4vh 0;
+    }
+    
+    .topnav-icon {
+        max-height: 40px;
+    }
+    
+    .main {
+        flex-direction: row;
+        margin: 30px 0;
+    }
+
+    #mockups-img {
+        margin: 0 0;
+        max-width: 50vw;
+        max-height: 80vh;
+    }
+
+    #landing-txt {
+        margin: 0 0 0 30px;
+        max-width: 40vw;
+        text-align: left;
+    }
+    
+    .landing-txt-item {
+        margin: 10pt 0;
+    }
+    
+    .register-button {
+        font-size: 1em;
+        height: 50px;
+        border-radius: 25px;
+        min-width: 100px;
+        width: 50vw;
+        max-width: 200px;
+    }
+
+    .social-media-links {
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        right: 30px;
+        bottom: 30px;
+    }
+}
