@@ -35,6 +35,8 @@ Users should be able to:
 
 ## My process
 
+<!-- ~4hr~ -->
+
 ### Built with
 
 - Semantic HTML5 markup
