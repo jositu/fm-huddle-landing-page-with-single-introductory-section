@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-vv0fpILfOZ](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-vv0fpILfOZ)
 - Live Site URL: [jositu.github.io/fm-huddle-landing-page-with-single-introductory-section/](jositu.github.io/fm-huddle-landing-page-with-single-introductory-section/)
 
 ## My process
